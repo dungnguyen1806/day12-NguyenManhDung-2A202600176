@@ -47,7 +47,7 @@ services:
     plan: free
     maxmemoryPolicy: allkeys-lru
     ipAllowList:
-      - cidr: 0.0.0.0/0
+      - source: 0.0.0.0/0
         description: Allow connections from anywhere
 
 # ============================================================
