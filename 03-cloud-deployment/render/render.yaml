@@ -17,7 +17,7 @@ services:
 
     # ✅ Set the root directory for this service.
     # All paths in build/start commands are now relative to this directory.
-    rootDirectory: 03-cloud-deployment/render
+    rootDir: 03-cloud-deployment/render
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
 
