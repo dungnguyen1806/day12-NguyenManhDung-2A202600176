@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+redis
+pydantic
+pydantic-settings
+python-multipart
+# Add any other dependencies if needed, e.g.
+# requests
